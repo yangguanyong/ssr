@@ -1,0 +1,9 @@
+div
+  ul
+    li 导航1
+    li 导航2
+    li 导航3
+    li 导航4
+div(class="menu")
+  -for(var i = 0;i <vm.menu.length; i++)
+    div(class="menu-list") #{vm.menu[i].value}

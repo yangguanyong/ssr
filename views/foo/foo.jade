@@ -1,0 +1,18 @@
+extends ../layout/layout
+
+block content
+  .content
+    h1= title
+    div sdasa
+    p Welcome to #{title}
+    -for(var i = 0;i <vm.comment.length; i++)
+      div #{vm.comment[i].value}
+    != vt.img('pic1.png')
+    include ./../components/logo/logo
+
+block styles
+  != vt.css('index/index')
+
+block scripts
+  != vt.js('foo/foo')
+  script(src="http://localhost:8080/app.bundle.js")

@@ -1,0 +1,13 @@
+extends ../layout/layout
+
+block content
+  .content
+    h1= title
+    p Welcome to #{title}
+    include ./../components/logo/logo
+
+block styles
+  != vt.css('index/index')
+
+block scripts
+  != vt.js('index/index')

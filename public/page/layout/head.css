@@ -1,0 +1,32 @@
+ul{
+  overflow: auto;
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  top:0px;
+  width: 100%;
+  background: white;
+  border-bottom: 1px solid #e1e1e1;
+}
+ul li{
+  float: left;
+  list-style: none;
+  width: 25%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+.menu{
+  display: none;
+  border-bottom: 1px solid #e1e1e1;
+  position: fixed;
+  top: 51px;
+  width: 100%;
+  background: white;
+}
+.menu-list{
+  display: inline-block;
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+}

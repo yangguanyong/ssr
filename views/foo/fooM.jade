@@ -1,0 +1,18 @@
+extends ../layout/layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  -for(var i = 0;i <vm.comment.length; i++)
+    div #{vm.comment[i].value}
+  != vt.img('pic1.png')
+  include ./../components/logo/logoM
+  div #{ tid }
+  textarea(id="txt", name="", cols="30", rows="10")
+  button(id="btn") 提交
+
+block styles
+  != vt.css('index/index')
+
+block scripts
+  != vt.js('foo/fooM')
