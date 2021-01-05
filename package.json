@@ -10,7 +10,7 @@
     "build": "gulp"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "co": "^4.6.0",
     "debug": "^2.6.3",
     "got": "^9.2.2",
