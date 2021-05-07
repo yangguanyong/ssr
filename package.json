@@ -28,7 +28,7 @@
     "koa-views": "^3.1.0",
     "md5": "^2.2.1",
     "querystring": "^0.2.0",
-    "ua-parser-js": "^0.7.17"
+    "ua-parser-js": "^0.7.24"
   },
   "devDependencies": {
     "del": "^3.0.0",
